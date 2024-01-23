@@ -1,0 +1,58 @@
+/* Reset default styling */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set display size for the map */
+#map {
+  height: 90%;
+  width: 100%;
+  position: relative; 
+}
+
+/* Style for map legend */
+.legend {
+  line-height: 18px;
+  color: #555;
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 6px 8px;
+  font-family: Arial, sans-serif;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 30px; 
+  right: 10px;
+  z-index: 1000; 
+}
+
+/* Style for legend color boxes */
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+/* Style for tooltip popups */
+.leaflet-popup-content-wrapper {
+  border-radius: 5px;
+}
+
+.leaflet-popup-content {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+/* Additional styles for controls */
+.leaflet-control-attribution,
+.leaflet-control-layers,
+.leaflet-bar {
+  box-shadow: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
